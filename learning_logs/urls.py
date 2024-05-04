@@ -16,4 +16,6 @@ path function takes 3 arguments
 urlpatterns = [
     #Home page
     path('', views.index, name='index'),
+    #Path to show all topics.
+    path('topics/', views.topics, name='topics'),
 ]
